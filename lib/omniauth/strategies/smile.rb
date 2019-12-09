@@ -22,6 +22,12 @@ module OmniAuth
         }
       end
 
+      extra do
+        {
+          account_id: access_token.params["smile_account_id"]
+        }
+      end
+
       ##
       # @return [String] Base callback URI without the params since adding the params in (which is default) makes the Smile API return a 4xx error
       def callback_base_url
