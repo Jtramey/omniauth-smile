@@ -24,7 +24,7 @@ module OmniAuth
 
       extra do
         {
-          account_id: access_token.params["smile_account_id"]
+          account_id: access_token.params['smile_account_id']
         }
       end
 
