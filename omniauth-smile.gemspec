@@ -5,10 +5,10 @@ require 'omniauth/smile/version'
 Gem::Specification.new do |s|
   s.name     = 'omniauth-smile'
   s.version  = OmniAuth::Smile::VERSION
-  s.authors  = ['Jay El-Kaake']
-  s.email    = ['dev@feracommerce.com']
+  s.authors  = ['Jay El-Kaake', 'Jonathon Ramey']
+  s.email    = ['dev@feracommerce.com', 'jonathon627@gmail.com']
   s.summary  = 'Smile strategy for OmniAuth'
-  s.homepage = 'https://github.com/feracommerce/omniauth-smile'
+  s.homepage = 'https://github.com/jtramey/omniauth-smile'
   s.license = 'MIT'
 
   s.files         = `git ls-files`.split("\n")
