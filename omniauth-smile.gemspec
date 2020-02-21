@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors  = ['Jay El-Kaake', 'Jonathon Ramey']
   s.email    = ['dev@feracommerce.com', 'jonathon627@gmail.com']
   s.summary  = 'Smile strategy for OmniAuth'
-  s.homepage = 'https://github.com/jtramey/omniauth-smile'
+  s.homepage = 'https://github.com/feracommerce/omniauth-smile'
   s.license = 'MIT'
 
   s.files         = `git ls-files`.split("\n")
